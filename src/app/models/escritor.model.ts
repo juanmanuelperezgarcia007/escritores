@@ -1,5 +1,4 @@
-import { SrvRecord } from 'dns';
-import { pairs } from 'rxjs';
+
 
 export class Escritor{
     id: number
