@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListaComponent } from './lista/lista.component';
 import { DetallesescritorComponent } from './detallesescritor/detallesescritor.component';
+import { PerfilEscritorComponent } from './perfil-escritor/perfil-escritor.component';
+import { ListalibrosComponent } from './listalibros/listalibros.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListaComponent,
-    DetallesescritorComponent
+    DetallesescritorComponent,
+    PerfilEscritorComponent,
+    ListalibrosComponent
   ],
   imports: [
     BrowserModule,

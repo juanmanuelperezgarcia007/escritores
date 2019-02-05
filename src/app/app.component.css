@@ -1,0 +1,10 @@
+div h2{
+    background-color: lightcoral;
+    color: white;
+    border: 5px solid coral !important;
+    margin: 10px;
+   
+}
+.container{
+    margin: 0 auto;
+}

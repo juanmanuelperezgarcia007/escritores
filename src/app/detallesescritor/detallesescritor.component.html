@@ -1,3 +1,10 @@
-<p>
-  detallesescritor works!
-</p>
+<div class="detalle row" [routerLink]="['/escritores', escritor.id]">
+  <div class="col-4">
+    <img [src]="escritor.imagen" class="img-thumbnail">
+  </div>
+  <div class="col-8">
+    <h4>NOMBRE: {{escritor.nombre}}</h4>
+    <h5>APELLIDOS: {{escritor.apellidos}} </h5>
+      <p>PAIS: {{escritor.pais.toUpperCase()}}</p>
+  </div>
+</div>
