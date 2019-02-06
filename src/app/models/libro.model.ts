@@ -1,4 +1,4 @@
-export class Libros{
+export class Libro{
     id:number
     titulo: string
     publicado:number

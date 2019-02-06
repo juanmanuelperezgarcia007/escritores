@@ -1,3 +1,14 @@
-<p>
-  listalibros works!
-</p>
+<h4>Libros</h4>
+<div class="row">
+    
+
+
+    <div class="col-4" *ngFor="let lib of libros">
+       <h5> {{lib.titulo}}</h5>
+       
+        <img [src]="lib.imagen" class="img-thumbnail">
+       
+    </div>
+
+
+</div>
